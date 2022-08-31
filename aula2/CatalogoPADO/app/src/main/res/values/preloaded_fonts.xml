@@ -3,6 +3,7 @@
     <array name="preloaded_fonts" translatable="false">
         <item>@font/</item>
         <item>@font/anonymous_pro</item>
+        <item>@font/noto_serif</item>
         <item>@font/roboto_thin</item>
     </array>
 </resources>

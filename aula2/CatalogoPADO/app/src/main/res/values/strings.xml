@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">CatalogoPADO</string>
+    <string name="o_mundo_cada_vez_mais_digital">O MUNDO\nCADA VEZ MAIS\n<b>DIGITAL</b></string>
+    <string name="novidades"><b>Novidades</b></string>
+    <string name="produtos"><b>Produtos</b></string>
+    <string name="fde_600w_nome">FDE-600W</string>
+    <string name="fde_600w_descricao">FECHADURA DIGITAL DE EMBUTIR A PROVA D\'ÁGUA E COM CONECTIVIDADE</string>
+    <string name="fde_600w_preco">R$1.500,00</string>
+    <string name="fde_300w_nome">FDE-300W</string>
+    <string name="fde_300w_descricao">FECHADURA DIGITAL DE EMBUTIR A PROVA D\'ÁGUA E CONECTIVIDADE</string>
+    <string name="fde_300w_preco">R$1.500,00</string>
+
 </resources>
