@@ -1,0 +1,64 @@
+<ion-header>
+  <img class="header-logo" src="https://padolabs.github.io/assets/img/PadoLabsLogo.webp" alt="" />
+</ion-header>
+
+<ion-content color="dark" [fullscreen]="true">
+
+  <ion-breadcrumbs class="breadcrumbs" color="light">
+    <ion-breadcrumb href="">Home</ion-breadcrumb>
+    <ion-breadcrumb href="cidades">Cidades</ion-breadcrumb>
+  </ion-breadcrumbs>
+
+  <ion-card class="cidades" *ngFor="let cidade of cidades">
+    <img class="img" [src]="cidade.img" />
+    <ion-card-header>
+      <ion-card-subtitle>Destino</ion-card-subtitle>
+      <ion-card-title>{{cidade.Cidade}}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-text>{{cidade.descricao_curta}}</ion-text>
+      <ion-button class="button" (click)="goToPage" (cidade)>
+        <ion-text>visualizar cidade</ion-text>
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
+
+
+
+
+
+
+
+
+
+<!-- <p class="title">SELECIONE UMA REGIÃO</p>
+
+  <ion-card class="card" *ngFor="let regiao of getRegioes()" (click)="goToPage(regiao)">
+    <img [src]="regiao.imgUrl" />
+    <p>{{regiao.name}}</p>
+  </ion-card>
+</ion-content>
+
+<ion-footer translucent="true" >
+
+  <ion-toolbar>
+    <ion-tabs>
+      <ion-tab-bar slot="bottom">
+        <ion-tab-button tab="Home">
+          <ion-icon name="home-outline"></ion-icon>
+        </ion-tab-button>
+
+        <ion-tab-button tab="Star">
+          <ion-icon name="star-outline"></ion-icon>
+        </ion-tab-button>
+
+        <ion-tab-button tab="Profile">
+          <ion-icon name="person-outline"></ion-icon>
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+
+  </ion-toolbar>
+</ion-footer> -->
